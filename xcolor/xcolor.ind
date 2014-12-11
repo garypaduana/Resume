@@ -1,0 +1,428 @@
+
+ \begin{theindex} 
+ \makeatletter\scan@allowedfalse
+{\bfseries\hfil A\hfil}\nopagebreak
+
+  \item \verb*+\adjustUCRBG+\pfill \usage{9}, \usage{54}
+  \item arguments\efill 
+ \subitem \meta  {color expr}\pfill \usage{14}, \usage{16}
+    \subitem \meta  {color}\pfill \usage{14}, \usage{16}
+    \subitem \meta  {core model}\pfill \usage{14, 15}
+    \subitem \meta  {dec}\pfill \usage{13, 14}
+    \subitem \meta  {div}\pfill \usage{13, 14}
+    \subitem \meta  {empty}\pfill \usage{13, 14}
+    \subitem \meta  {expr}\pfill \usage{14, 15}
+    \subitem \meta  {ext expr}\pfill \usage{14}, \usage{16}
+    \subitem \meta  {ext id}\pfill \usage{14}
+    \subitem \meta  {func expression}\pfill \usage{16}
+    \subitem \meta  {func expr}\pfill \usage{14}
+    \subitem \meta  {function}\pfill \usage{14}, \usage{16}
+    \subitem \meta  {id-list}\pfill \usage{14}
+    \subitem \meta  {id}\pfill \usage{14}
+    \subitem \meta  {int}\pfill \usage{13, 14}
+    \subitem \meta  {minus}\pfill \usage{13, 14}
+    \subitem \meta  {mix expr}\pfill \usage{14, 15}
+    \subitem \meta  {model-list}\pfill \usage{14, 15}
+    \subitem \meta  {model}\pfill \usage{14, 15}
+    \subitem \meta  {name}\pfill \usage{13, 14}
+    \subitem \meta  {num model}\pfill \usage{14, 15}
+    \subitem \meta  {num}\pfill \usage{13, 14}
+    \subitem \meta  {pct}\pfill \usage{13, 14}
+    \subitem \meta  {plus}\pfill \usage{13, 14}
+    \subitem \meta  {postfix}\pfill \usage{14, 15}
+    \subitem \meta  {prefix}\pfill \usage{14, 15}
+    \subitem \meta  {spec-list}\pfill \usage{14, 15}
+    \subitem \meta  {spec}\pfill \usage{14, 15}
+    \subitem \meta  {type}\pfill \usage{14, 15}
+
+  \indexspace
+{\bfseries\hfil B\hfil}\nopagebreak
+
+  \item \verb*+\blendcolors+\pfill \usage{26}
+  \item \verb*+\blendcolors*+\pfill \usage{26}
+  \item \verb*+\boxframe+\pfill \usage{25}
+
+  \indexspace
+{\bfseries\hfil C\hfil}\nopagebreak
+
+  \item \verb*+\color+\pfill \usage{24}
+  \item color expression\pfill \usage{21}
+  \item color functions\efill 
+ \subitem \textit  {twheel}\pfill \usage{18}
+    \subitem \textit  {wheel}\pfill \usage{18}
+  \item color models\efill 
+ \subitem \textsf  {\bfseries  Gray}\pfill \usage{10--12}, 
+		\usage{15}, \usage{44}, \usage{48}, \usage{58, 59}
+    \subitem \textsf  {\bfseries  HSB}\pfill \usage{10--12}, \usage{15}, 
+		\usage{44}, \usage{48}, \usage{56}, \usage{58}
+    \subitem \textsf  {\bfseries  HTML}\pfill \usage{9--11}, \usage{15}, 
+		\usage{44}, \usage{48}, \usage{53}, \usage{58}, 
+		\usage{66}
+    \subitem \textsf  {\bfseries  Hsb}\pfill \usage{11}, \usage{15}, 
+		\usage{18}, \usage{39}, \usage{48}, \usage{56--58}, 
+		\usage{63}
+    \subitem \textsf  {\bfseries  RGB}\pfill \usage{10--12}, \usage{15}, 
+		\usage{19}, \usage{44}, \usage{48}, \usage{53}, 
+		\usage{58}, \usage{66}
+    \subitem \textsf  {\bfseries  cmyk}\pfill \usage{5, 6}, 
+		\usage{9--11}, \usage{15}, \usage{19}, \usage{21}, 
+		\usage{26}, \usage{44}, \usage{48}, \usage{50}, 
+		\usage{53, 54}, \usage{58}, \usage{62}, \usage{66}
+    \subitem \textsf  {\bfseries  cmy}\pfill \usage{9--11}, \usage{15}, 
+		\usage{27}, \usage{44}, \usage{48}, \usage{51}, 
+		\usage{53, 54}, \usage{58}
+    \subitem \textsf  {\bfseries  gray}\pfill \usage{6}, \usage{9--12}, 
+		\usage{15}, \usage{17}, \usage{44}, \usage{48}, 
+		\usage{50}, \usage{53, 54}, \usage{57--59}
+    \subitem \textsf  {\bfseries  hsb}\pfill \usage{5}, \usage{9--12}, 
+		\usage{15}, \usage{18}, \usage{21}, \usage{44, 45}, 
+		\usage{47, 48}, \usage{50--52}, \usage{55--60}
+    \subitem \textsf  {\bfseries  rgb}\pfill \usage{6}, \usage{9--12}, 
+		\usage{15}, \usage{19}, \usage{21}, \usage{27}, 
+		\usage{30}, \usage{44}, \usage{48}, \usage{50--59}
+    \subitem \textsf  {\bfseries  tHsb}\pfill \usage{11}, \usage{15}, 
+		\usage{18}, \usage{39}, \usage{48}, \usage{57, 58}, 
+		\usage{63}
+    \subitem \textsf  {\bfseries  wave}\pfill \usage{11, 12}, 
+		\usage{15}, \usage{48}, \usage{59, 60}, \usage{63}
+    \subitem `named'\pfill \usage{15}, \usage{21}, \usage{66}
+    \subitem `ps'\pfill \usage{15}, \usage{63}
+  \item color names\efill 
+ \subitem \textsl  {Fuchsia}\pfill \usage{32}
+    \subitem \textsl  {Gray0}\pfill \usage{19}
+    \subitem \textsl  {Green0}\pfill \usage{19}
+    \subitem \textsl  {Grey0}\pfill \usage{19}
+    \subitem \textsl  {Maroon0}\pfill \usage{19}
+    \subitem \textsl  {Purple0}\pfill \usage{19}
+    \subitem \textsl  {black}\pfill \usage{6}, \usage{9, 10}, 
+		\usage{18}, \usage{26}, \usage{33}, \usage{59}, 
+		\usage{62}
+    \subitem \textsl  {blue}\pfill \usage{6, 7}, \usage{18}, \usage{20}, 
+		\usage{22}, \usage{59}
+    \subitem \textsl  {brown}\pfill \usage{18}, \usage{66}
+    \subitem \textsl  {cyan}\pfill \usage{18}, \usage{26, 27}, 
+		\usage{59}
+    \subitem \textsl  {darkgray}\pfill \usage{18}
+    \subitem \textsl  {foo}\pfill \usage{20}, \usage{27}
+    \subitem \textsl  {gold}\pfill \usage{6}
+    \subitem \textsl  {gray}\pfill \usage{6}, \usage{18}
+    \subitem \textsl  {green}\pfill \usage{5--7}, \usage{18}, 
+		\usage{22}, \usage{59}
+    \subitem \textsl  {lightgray}\pfill \usage{18}
+    \subitem \textsl  {lime}\pfill \usage{18}, \usage{62}
+    \subitem \textsl  {magenta}\pfill \usage{18}, \usage{26}, 
+		\usage{59}
+    \subitem \textsl  {olive}\pfill \usage{18}, \usage{63}
+    \subitem \textsl  {orange}\pfill \usage{18}, \usage{66}
+    \subitem \textsl  {pink}\pfill \usage{18}, \usage{63}
+    \subitem \textsl  {purple}\pfill \usage{18}, \usage{66}
+    \subitem \textsl  {red}\pfill \usage{5--7}, \usage{9}, \usage{11}, 
+		\usage{18}, \usage{20--22}, \usage{33}, \usage{59}, 
+		\usage{63}
+    \subitem \textsl  {silver}\pfill \usage{6}
+    \subitem \textsl  {teal}\pfill \usage{18}, \usage{62}
+    \subitem \textsl  {violet}\pfill \usage{18}, \usage{66}
+    \subitem \textsl  {white}\pfill \usage{6}, \usage{18}
+    \subitem \textsl  {yellow}\pfill \usage{5}, \usage{7}, \usage{11}, 
+		\usage{18}, \usage{26}, \usage{59}
+  \item color set\pfill \usage{22}
+  \item color stack\pfill \usage{32}
+  \item \verb*+\colorbox+\pfill \usage{24}
+  \item \verb*+\colorlet+\pfill \usage{21}
+  \item \verb*+\colormask+\pfill \usage{27}
+  \item \verb*+\colorseriescycle+\pfill \usage{29}
+  \item \verb*+\convertcolorspec+\pfill \usage{32}
+
+  \indexspace
+{\bfseries\hfil D\hfil}\nopagebreak
+
+  \item \verb*+\definecolor+\pfill \usage{21}, \usage{31}
+  \item \verb*+\definecolors+\pfill \usage{23}
+  \item \verb*+\definecolorseries+\pfill \usage{28}
+  \item \verb*+\definecolorset+\pfill \usage{22}
+  \item \verb*+\DefineNamedColor+\pfill \usage{23}
+  \item definition stack\pfill \usage{22, 23}
+
+  \indexspace
+{\bfseries\hfil E\hfil}\nopagebreak
+
+  \item environments:\efill 
+ \subitem {\ttfamily testcolors}\pfill \usage{25}
+  \item \verb*+\extractcolorspec+\pfill \usage{31}
+  \item \verb*+\extractcolorspecs+\pfill \usage{31}
+
+  \indexspace
+{\bfseries\hfil F\hfil}\nopagebreak
+
+  \item \verb*+\fcolorbox+\pfill \usage{24}
+  \item files\efill 
+ \subitem \texttt  {.def}\pfill \usage{8}, \usage{65}
+    \subitem \texttt  {.dvi}\pfill \usage{20, 21}, \usage{25}, 
+		\usage{30}
+    \subitem \texttt  {.eps}\pfill \usage{10}, \usage{27}, \usage{33}, 
+		\usage{62}
+    \subitem \texttt  {.jpg}\pfill \usage{27}
+    \subitem \texttt  {.pdf}\pfill \usage{27}
+    \subitem \texttt  {.png}\pfill \usage{27}
+    \subitem \texttt  {.ps}\pfill \usage{20}, \usage{30}, \usage{33}
+    \subitem \texttt  {.sty}\pfill \usage{65}
+    \subitem \texttt  {.xcp}\pfill \usage{10}, \usage{20}
+    \subitem \texttt  {color.pro}\pfill \usage{20}
+    \subitem \texttt  {dvipsnam.def}\pfill \usage{23}
+    \subitem \texttt  {rgb.txt}\pfill \usage{19}, \usage{63}
+    \subitem \texttt  {xcolor.pro}\pfill \usage{8}, \usage{20}, 
+		\usage{64}
+    \subitem \texttt  {xcolor.sty}\pfill \usage{8}, \usage{18}
+    \subitem \texttt  {xcolor2.tex}\pfill \usage{31}, \usage{60}, 
+		\usage{62--64}, \usage{67}
+    \subitem \texttt  {xcolor3.tex}\pfill \usage{62}
+    \subitem \texttt  {xcolor4.tex}\pfill \usage{62, 63}
+
+  \indexspace
+{\bfseries\hfil G\hfil}\nopagebreak
+
+  \item \verb*+\GetGinDriver+\pfill \usage{8}
+  \item \verb*+\GinDriver+\pfill \usage{8}
+
+  \indexspace
+{\bfseries\hfil H\hfil}\nopagebreak
+
+  \item \verb*+\hiderowcolors+\pfill \usage{31}
+  \item HKS\pfill \usage{6}
+  \item HTML4\pfill \usage{19}, \usage{42}
+
+  \indexspace
+{\bfseries\hfil I\hfil}\nopagebreak
+
+  \item \verb*+\ifconvertcolorsD+\pfill \usage{13}
+  \item \verb*+\ifconvertcolorsU+\pfill \usage{13}
+  \item \verb*+\ifdefinecolors+\pfill \usage{23}
+  \item \verb*+\ifglobalcolors+\pfill \usage{23}
+  \item \verb*+\ifmaskcolors+\pfill \usage{27}
+
+  \indexspace
+{\bfseries\hfil K\hfil}\nopagebreak
+
+  \item keys\efill 
+ \subitem \textit  {citebordercolor}\pfill \usage{30}
+    \subitem \textit  {citecolor}\pfill \usage{30}
+    \subitem \textit  {filebordercolor}\pfill \usage{30}
+    \subitem \textit  {filecolor}\pfill \usage{30}
+    \subitem \textit  {linkbordercolor}\pfill \usage{30}
+    \subitem \textit  {linkcolor}\pfill \usage{30}
+    \subitem \textit  {menubordercolor}\pfill \usage{30}
+    \subitem \textit  {menucolor}\pfill \usage{30}
+    \subitem \textit  {pagebordercolor}\pfill \usage{30}
+    \subitem \textit  {pagecolor}\pfill \usage{30}
+    \subitem \textit  {pdfborder}\pfill \usage{30}
+    \subitem \textit  {runbordercolor}\pfill \usage{30}
+    \subitem \textit  {runcolor}\pfill \usage{30}
+    \subitem \textit  {urlbordercolor}\pfill \usage{30}
+    \subitem \textit  {urlcolor}\pfill \usage{30}
+    \subitem \textit  {xcitebordercolor}\pfill \usage{30}
+    \subitem \textit  {xfilebordercolor}\pfill \usage{30}
+    \subitem \textit  {xlinkbordercolor}\pfill \usage{30}
+    \subitem \textit  {xmenubordercolor}\pfill \usage{30}
+    \subitem \textit  {xpagebordercolor}\pfill \usage{30}
+    \subitem \textit  {xpdfborder}\pfill \usage{30}, \usage{65}
+    \subitem \textit  {xrunbordercolor}\pfill \usage{30}
+    \subitem \textit  {xurlbordercolor}\pfill \usage{30}
+
+  \indexspace
+{\bfseries\hfil M\hfil}\nopagebreak
+
+  \item \verb*+\maskcolors+\pfill \usage{27}
+  \item MiKT\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m \pfill 
+		\usage{21}
+
+  \indexspace
+{\bfseries\hfil P\hfil}\nopagebreak
+
+  \item package options\efill 
+ \subitem \texttt  {Gray}\pfill \usage{8}, \usage{10}, 
+		\usage{13}
+    \subitem \texttt  {HSB}\pfill \usage{8}, \usage{10}, \usage{13}
+    \subitem \texttt  {HTML}\pfill \usage{8}, \usage{10}, \usage{13}
+    \subitem \texttt  {RGB}\pfill \usage{8}, \usage{10}, \usage{13}
+    \subitem \texttt  {cmyk}\pfill \usage{8}, \usage{10}, \usage{13}, 
+		\usage{26}
+    \subitem \texttt  {cmy}\pfill \usage{8}, \usage{10}, \usage{13}
+    \subitem \texttt  {dvipdfmx}\pfill \usage{8}, \usage{44}, 
+		\usage{63}
+    \subitem \texttt  {dvipdfm}\pfill \usage{8}, \usage{20}, \usage{25}, 
+		\usage{44, 45}, \usage{62}
+    \subitem \texttt  {dvipdf}\pfill \usage{8}, \usage{44}
+    \subitem \texttt  {dvipsnames*}\pfill \usage{8}, \usage{10}, 
+		\usage{19}, \usage{65}
+    \subitem \texttt  {dvipsnames}\pfill \usage{8--10}, \usage{19--21}, 
+		\usage{32}, \usage{41}, \usage{65}
+    \subitem \texttt  {dvipsone}\pfill \usage{8}, \usage{44}
+    \subitem \texttt  {dvips}\pfill \usage{8, 9}, \usage{20, 21}, 
+		\usage{25}, \usage{31}, \usage{35}, \usage{44}, 
+		\usage{46}, \usage{63--65}
+    \subitem \texttt  {dviwindo}\pfill \usage{8}, \usage{44}
+    \subitem \texttt  {dviwin}\pfill \usage{8}, \usage{44}
+    \subitem \texttt  {emtex}\pfill \usage{8}, \usage{44}
+    \subitem \texttt  {fixinclude}\pfill \usage{8}, \usage{10}, 
+		\usage{33}, \usage{62}
+    \subitem \texttt  {fixpdftex}\pfill \usage{8}, \usage{10, 11}, 
+		\usage{33}, \usage{64}
+    \subitem \texttt  {gray}\pfill \usage{8}, \usage{10}, \usage{13}
+    \subitem \texttt  {hideerrors}\pfill \usage{8}, \usage{10}, 
+		\usage{67}
+    \subitem \texttt  {hsb}\pfill \usage{8}, \usage{10}, \usage{13}
+    \subitem \texttt  {hyperref}\pfill \usage{8}, \usage{10}, 
+		\usage{30}, \usage{66}
+    \subitem \texttt  {hypertex}\pfill \usage{8}
+    \subitem \texttt  {kernelfbox}\pfill \usage{8}, \usage{10}, 
+		\usage{25}, \usage{63}
+    \subitem \texttt  {monochrome}\pfill \usage{8}, \usage{44}
+    \subitem \texttt  {natural}\pfill \usage{8}, \usage{10}, \usage{13}
+    \subitem \texttt  {noxcdraw}\pfill \usage{8}, \usage{10}, 
+		\usage{25}
+    \subitem \texttt  {oztex}\pfill \usage{8}, \usage{44}
+    \subitem \texttt  {pctex32}\pfill \usage{8}, \usage{44}
+    \subitem \texttt  {pctexhp}\pfill \usage{8}, \usage{44}
+    \subitem \texttt  {pctexps}\pfill \usage{8}, \usage{44}
+    \subitem \texttt  {pctexwin}\pfill \usage{8}, \usage{44}
+    \subitem \texttt  {pdftex}\pfill \usage{8}, \usage{21}, \usage{25}, 
+		\usage{44--46}, \usage{62}
+    \subitem \texttt  {prologue}\pfill \usage{8}, \usage{10}, 
+		\usage{20, 21}, \usage{64}
+    \subitem \texttt  {rgb}\pfill \usage{8}, \usage{10}, \usage{13}
+    \subitem \texttt  {showerrors}\pfill \usage{8}, \usage{10}
+    \subitem \texttt  {svgnames*}\pfill \usage{8}, \usage{10}, 
+		\usage{19}, \usage{23}, \usage{65}
+    \subitem \texttt  {svgnames}\pfill \usage{8}, \usage{10}, 
+		\usage{19}, \usage{23}, \usage{32}, \usage{41}, 
+		\usage{63}
+    \subitem \texttt  {table}\pfill \usage{8}, \usage{10, 11}, 
+		\usage{31}, \usage{64}
+    \subitem \texttt  {tcidvi}\pfill \usage{8}, \usage{44}
+    \subitem \texttt  {textures}\pfill \usage{8}, \usage{44}
+    \subitem \texttt  {truetex}\pfill \usage{8}, \usage{44}
+    \subitem \texttt  {usecolors}\pfill \usage{45}
+    \subitem \texttt  {vtex}\pfill \usage{8}, \usage{44}
+    \subitem \texttt  {x11namees}\pfill \usage{19}
+    \subitem \texttt  {x11names*}\pfill \usage{8}, \usage{10}, 
+		\usage{19}
+    \subitem \texttt  {x11names}\pfill \usage{8}, \usage{10}, 
+		\usage{19}, \usage{42}
+    \subitem \texttt  {xcdraw}\pfill \usage{8}, \usage{10}, \usage{25}, 
+		\usage{62, 63}
+    \subitem \texttt  {xdvi}\pfill \usage{8}, \usage{44}
+    \subitem \texttt  {xetex}\pfill \usage{8}, \usage{44}, \usage{63}
+  \item package options (obsolete)\efill 
+ \subitem \texttt  {nodvipsnames}\pfill \usage{8}, \usage{65}
+    \subitem \texttt  {override}\pfill \usage{8}, \usage{65}, 
+		\usage{67}
+    \subitem \texttt  {pst}\pfill \usage{8}, \usage{62}
+    \subitem \texttt  {usenames}\pfill \usage{8}, \usage{46}, 
+		\usage{65}
+  \item packages\efill 
+ \subitem \textsf  {colorinfo}\pfill \usage{45}, \usage{61}
+    \subitem \textsf  {colortbl}\pfill \usage{10, 11}, \usage{31}, 
+		\usage{61}
+    \subitem \textsf  {color}\pfill \usage{5, 6}, \usage{8--11}, 
+		\usage{20, 21}, \usage{23, 24}, \usage{29}, \usage{32}, 
+		\usage{44--46}, \usage{61, 62}, \usage{65}
+    \subitem \textsf  {doc}\pfill \usage{67}
+    \subitem \textsf  {fp}\pfill \usage{45}, \usage{65}
+    \subitem \textsf  {graphics}\pfill \usage{20}, \usage{33}, 
+		\usage{44}
+    \subitem \textsf  {graphicx}\pfill \usage{33}
+    \subitem \textsf  {hyperref}\pfill \usage{8}, \usage{10, 11}, 
+		\usage{30}, \usage{61, 62}, \usage{67}
+    \subitem \textsf  {longtable}\pfill \usage{62}
+    \subitem \textsf  {memoir}\pfill \usage{64}
+    \subitem \textsf  {msc}\pfill \usage{64}
+    \subitem \textsf  {pdfcolmk}\pfill \usage{10, 11}, \usage{33}, 
+		\usage{61}, \usage{64}
+    \subitem \textsf  {preview}\pfill \usage{64}
+    \subitem \textsf  {pstcol}\pfill \usage{11}, \usage{61}
+    \subitem \textsf  {pstricks}\pfill \usage{11}, \usage{21}, 
+		\usage{30, 31}, \usage{60}, \usage{62--67}
+    \subitem \textsf  {realcalc}\pfill \usage{45}
+    \subitem \textsf  {soul}\pfill \usage{24}, \usage{66}
+    \subitem \textsf  {url}\pfill \usage{61}
+    \subitem \textsf  {xcolor}\pfill \usage{1}, \usage{5, 6}, 
+		\usage{8, 9}, \usage{11--13}, \usage{15}, 
+		\usage{19--23}, \usage{27}, \usage{29, 30}, 
+		\usage{32, 33}, \usage{44--46}, \usage{60--62}, 
+		\usage{64--66}
+  \item \verb*+\pagecolor+\pfill \usage{24}
+  \item Pantone\pfill \usage{6}
+  \item PDF\pfill \usage{25}
+  \item people\efill 
+ \subitem Arseneau, Donald\pfill \usage{25}, \usage{61}
+    \subitem Bruton, Dan\pfill \usage{59}, \usage{61}
+    \subitem Carlisle, David P.\pfill \usage{61, 62}
+    \subitem Goethe, Johann Wolfgang von\pfill \usage{7}
+    \subitem Kern, Uwe\pfill \usage{61}
+    \subitem Newton, Isaac\pfill \usage{7}
+    \subitem Niepraschk, Rolf\pfill \usage{61}
+    \subitem Oberdiek, Heiko\pfill \usage{61}
+    \subitem Rahtz, Sebastian\pfill \usage{61}
+    \subitem Smith, Alvy Ray\pfill \usage{50}, \usage{61}
+    \subitem Vo\ss , Herbert\pfill \usage{61}
+  \item PostScript\pfill \usage{9}, \usage{15}, \usage{20, 21}, 
+		\usage{25}, \usage{31}, \usage{33}, \usage{50}, 
+		\usage{52}, \usage{63, 64}
+  \item \verb*+\preparecolor+\pfill \usage{23}
+  \item \verb*+\preparecolorset+\pfill \usage{23}
+  \item programs\efill 
+ \subitem \textsf  {\itshape  Yap}\pfill \usage{21}
+    \subitem \textsf  {\itshape  dvipdfm}\pfill \usage{20}
+    \subitem \textsf  {\itshape  dvips}\pfill \usage{8}, \usage{20, 21}, 
+		\usage{30}, \usage{32, 33}, \usage{62}, \usage{64--66}
+  \item \verb*+\providecolor+\pfill \usage{21}
+  \item \verb*+\providecolors+\pfill \usage{23}
+  \item \verb*+\providecolorset+\pfill \usage{22}
+
+  \indexspace
+{\bfseries\hfil R\hfil}\nopagebreak
+
+  \item \verb*+\rangeGray+\pfill \usage{12}
+  \item \verb*+\rangeHSB+\pfill \usage{12}
+  \item \verb*+\rangeHsb+\pfill \usage{11}, \usage{57}
+  \item \verb*+\rangeRGB+\pfill \usage{12}
+  \item \verb*+\rangetHsb+\pfill \usage{11}, \usage{57}
+  \item \verb*+\resetcolorseries+\pfill \usage{29}
+  \item \verb*+\rowcolors+\pfill \usage{31}
+  \item \verb*+\rowcolors*+\pfill \usage{31}
+  \item \verb*+\rownum+\pfill \usage{31}
+
+  \indexspace
+{\bfseries\hfil S\hfil}\nopagebreak
+
+  \item \verb*+\selectcolormodel+\pfill \usage{13}
+  \item shade\pfill \usage{6}
+  \item \verb*+\showrowcolors+\pfill \usage{31}
+  \item spot color\pfill \usage{6}
+  \item \verb*+\substitutecolormodel+\pfill \usage{12}
+  \item SVG\pfill \usage{10}, \usage{19}, \usage{32}, \usage{61}, 
+		\usage{65}
+
+  \indexspace
+{\bfseries\hfil T\hfil}\nopagebreak
+
+  \item \verb*+\testcolor+\pfill \usage{26}
+  \item {\ttfamily testcolors} (environment)\pfill \usage{25}
+  \item \verb*+\textcolor+\pfill \usage{24}
+  \item tint\pfill \usage{6}
+  \item tone\pfill \usage{6}
+  \item \verb*+\tracingcolors+\pfill \usage{31}
+
+  \indexspace
+{\bfseries\hfil U\hfil}\nopagebreak
+
+  \item Unix\pfill \usage{10}, \usage{19}, \usage{42}, \usage{63}
+
+  \indexspace
+{\bfseries\hfil X\hfil}\nopagebreak
+
+  \item X11\pfill \usage{10}, \usage{19}, \usage{42}, \usage{63}
+  \item \verb*+\xcolorcmd+\pfill \usage{9}
+  \item \verb*+\xglobal+\pfill \usage{23}, \usage{26, 27}
+
+ \end{theindex}
