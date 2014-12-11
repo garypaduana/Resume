@@ -2,7 +2,6 @@
 % conditions of the LaTeX Project Public License version 1.3c,
 % available at http://www.latex-project.org/lppl/.
 
-
 \documentclass[11pt, a4paper, sans]{moderncv}      
 \moderncvstyle{classic}	% [casual, classic, oldstyle, banking]
 \moderncvcolor{green}		% [blue, orange, green red, purple, grey, black]
@@ -15,34 +14,28 @@
 \address{636 Herschel Street}{Pittsburgh, PA 15220}
 \phone[mobile]{(501)~712~3141}
 \email{gary.paduana@gmail.com}                           
-\social[github]{garypaduana}                                               
+\social[github]{garypaduana}
 
 \begin{document}
 \makecvtitle
 
 \section{Education}
-\cvitem{2007}{Robert Morris University, Moon, PA (Integrated Degree Plan)\begin{itemize}
-\item \textbf{Master of Science}, Information Security and Assurance, \textit{3.96 GPA}
-\item \textbf{Bachelor of Science}, Software Engineering, \textit{3.81 GPA, Magna Cum Laude}
-\end{itemize}}
+\cvitem{2007}{Robert Morris University, Moon, PA (Integrated Degree Plan)}
+\cvlistitem{\small \textbf{Master of Science}, Information Security and Assurance, \textit{3.96 GPA}}
+\cvlistitem{\small \textbf{Bachelor of Science}, Software Engineering, \textit{3.81 GPA, Magna Cum Laude}}
 
 \subsection{Continued Learning}
-\cvitem{Since \\ Dec 2014}{Coursera.org
-\begin{itemize}
-\item Currently attending: \textit{The Data Scientist's Toolbox} and \textit{R Programming}
-\end{itemize}}
-
-\cvitem{Mar 2009\\Jan 2009}{UCLA Extension, Los Angeles, CA
-\begin{itemize}
-\item \textit{Oracle Database 11g: Administration Workshop I}
-\end{itemize}}
+\cvitem{2014}{Coursera.org}
+\cvlistitem{{\small Current enrollment: \textit{The Data Scientist's Toolbox} and \textit{R Programming}}}
+\cvitem{2009}{University of California, Los Angeles, Los Angeles, CA}
+\cvlistitem{{\small \textit{Oracle Database 11g: Administration Workshop I}}}
 
 \section{Experience}
-\subsection{Vocational}
+\subsection{Professional}
 \cventry{Nov 2014 \\ Jul 2013}{Senior Software Engineer}{Healthesystems}{Tampa, FL}{}{Created new enterprise integration software and enhanced existing customer-facing products and processes.
 \begin{itemize}
 	\item Lead development on a new Spring Integration application that reconciled offline, historical billing transactions with the existing claims adjudication system.
-	\item Created a process for integrating new vendors into our payment processing system and worked directly with vendor management and development staff.  Assisted multiple vendors in troubleshooting and design as they developed a client application to interface with our exposed SOAP Web Services.
+	\item Created a process for integrating new vendors into Healthesystems' payment processing system and worked directly with vendor management and development staff.  Assisted multiple vendors in troubleshooting and design as they developed a client application to interface with our exposed SOAP Web Services.
 \end{itemize}}
 
 \cventry{Apr 2012 \\ Feb 2011}{Senior Software Engineer}{General Dynamics \& Aerotek}{Santa Clara, CA}{}{Implemented server-side computational algorithms to support a resource scheduling system.
@@ -56,12 +49,12 @@
 \cventry{Nov 2010 \\ Sep 2008}{Software Engineer}{Northrop Grumman \& Assured Space}{Redondo Beach, CA}{}{Designed, tested, and integrated custom software to fit the needs of an operational satellite environment  (\href{http://en.wikipedia.org/wiki/Space_Tracking_and_Surveillance_System}{{\color{LinkBlue}STSS}}) through pre-launch, launch, and early-orbit test phases.
 \begin{itemize}
 \item Created an application to decode command values from binary receipt files to track changes made to payload memory aboard two satellites as a function of time.
-\item Analyzed communication anomalies and helped to solve a significant operational problem.  I created a binary telemetry stream filter to calculate loss rates by looking for malformed data frames.
+\item Analyzed communication anomalies and helped to solve a significant operational problem. Created a binary telemetry stream filter to calculate loss rates by looking for malformed data frames.
 \item Wrote a stored procedure to serve time series data to satellite operators with look-behind functionality to identify the last known value just prior to entering the time frame requested for each data series.
 \item Decoded the mission data telemetry stream into subsystem outputs for distribution to specialized analysis teams using an interface control document as reference for bit-level routing.
 \end{itemize}}
 
-\cventry{Feb 2008 \\ May 2006}{IT Security Analyst}{Bayer Corporate and Business Services}{Pittsburgh, PA}{}{Paid internship satisfying a coursework requirement for industry experience in software development.
+\cventry{Feb 2008 \\ May 2006}{IT Security Analyst}{Bayer Corporate and Business Services}{Pittsburgh, PA}{}{Provided IT security services including remote access, account management, and reporting; developed software to automate and refine existing manual processes.
 \begin{itemize}
 \item Automated a monthly data maintenance task that compiled usage metrics and user account health information for more than 16,000 employees and hundreds of technology services globally.  This new process and software reduced human involvement time from two days to less than four hours.
 \item Provided ad hoc reporting to global management with custom SQL queries.
@@ -118,7 +111,7 @@
 \end{itemize}}
 
 \cventry{Since \\ Apr 2012}{\href{https://github.com/garypaduana/ProjectEuler}{\color{LinkBlue}Project Euler}}{}{}{}{"A series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve."\begin{itemize}
-\item \href{https://projecteuler.net/profile/gary.paduana.png}{{\color{LinkBlue}Solved 104 problems}} so far to practice algorithm design, problem solving, implementation, and optimization using Java SE, Groovy, and Python.
+\item \href{https://projecteuler.net/profile/gary.paduana.png}{{\color{LinkBlue}Solved 104 problems}} to date to practice algorithm design, problem solving, implementation, and optimization using Java SE, Groovy, and Python.
 \item Areas of focus include: sequence analyses, prime factorization, prime generation, very large decimal operations, maximum and minimum distance paths in a graph, calendar and time operations, string analyses (palindromes, reversing, substrings, replacing, searching, pattern detection, permutations, regular expressions, etc.), combinatoric selections, card game simulation and bulk analysis of dealt hands, symbolic simplification of non-trivial fractional expressions, XOR encryption and decryption, Euler's Totient function analyses, fraction simplification, ordering within a large collection ($> 10^{11}$ elements), number partitioning, the modeling and statistical analyses of board games, and many other similar subjects.
 \item Currently ranked in the top 1.5\% of members that have been solving problems since 2001.
 \end{itemize}} 
@@ -129,7 +122,7 @@
 \cvlistitem{Alpha Chi membership, limited to the top 10 percent of an institution's juniors, seniors, and graduate students.}
 
 \section{Interests}
-\cvlistitem{Adventure, Astronomy, Digital Storage and Archiving, Economics, Fitness \& Diet, Learning,  Natural Sciences, Philosophy, Photography, Technology, and Wilderness.} 
+\cvitem{}{Astronomy, Continued Learning, Digital Storage and Archiving, Economics, Fitness \& Health, Natural Sciences, Philosophy, Photography, Technology, and Wilderness.}
 
 \section{References}
 \cvdoubleitem{}{Robert Gettys\\Coworker, Healthesystems\\bob@bobgettys.com\\757-470-8114}{}{Tyler Pinckard\\Coworker, General Dynamics\\tyler.pinckard@gmail.com\\602-859-0542}
