@@ -21,17 +21,20 @@
 \makecvtitle
 
 \section{Education}
-\cvitem{2007}{Robert Morris University, Moon, PA (Integrated Degree Plan)}
-	\cvlistitem{\small \textbf{Master of Science}, Information Security and Assurance, \textit{3.96 GPA}}
-	\cvlistitem{\small \textbf{Bachelor of Science}, Software Engineering, \textit{3.81 GPA, Magna Cum Laude}}
+\cvitem{2007}{Robert Morris University, Moon, PA (Integrated Degree Plan)}{
+	\small
+	\cvlistitem{\textbf{Master of Science}, Information Security and Assurance, \textit{3.96 GPA}}
+	\cvlistitem{\textbf{Bachelor of Science}, Software Engineering, \textit{3.81 GPA, Magna Cum Laude}}
+}
 
 \section{Experience}
 \subsection{Professional}
 \cventry{Nov 2014 \\ Jul 2013}{Senior Software Engineer}{Healthesystems}{Tampa, FL}{}{Created new enterprise integration software and enhanced existing customer-facing products and processes.
-\begin{itemize}
-	\item Lead development on a new Spring Integration application that reconciled offline, historical billing transactions with the existing claims adjudication system.
-	\item Created a process for integrating new vendors into Healthesystems' payment processing system and worked directly with vendor management and development staff.  Assisted multiple vendors in troubleshooting and design as they developed a client application to interface with the exposed SOAP Web Services.
-\end{itemize}}
+	\begin{itemize}
+		\item Lead development on a new Spring Integration application that reconciled offline, historical billing transactions with the existing claims adjudication system.
+		\item Created a process for integrating new vendors into Healthesystems' payment processing system and worked directly with vendor management and development staff.  Assisted multiple vendors in troubleshooting and design as they developed a client application to interface with the exposed SOAP Web Services.
+	\end{itemize}
+}
 
 \cventry{Apr 2012 \\ Feb 2011}{Senior Software Engineer}{General Dynamics \& Aerotek}{Santa Clara, CA}{}{Implemented server-side computational algorithms to support a resource scheduling system.
 \begin{itemize}
@@ -42,90 +45,105 @@
 \end{itemize}}
 
 \cventry{Nov 2010 \\ Sep 2008}{Software Engineer}{Northrop Grumman \& Assured Space}{Redondo Beach, CA}{}{Designed, tested, and integrated custom software to fit the needs of an operational satellite environment  (\href{http://en.wikipedia.org/wiki/Space_Tracking_and_Surveillance_System}{{\color{LinkBlue}STSS}}) through pre-launch, launch, and early-orbit test phases.
-\begin{itemize}
-	\item Created an application to decode command values from binary receipt files to track changes made to payload memory aboard two satellites as a function of time.
-	\item Analyzed communication anomalies and helped to solve a significant operational problem. Created a binary telemetry stream filter to calculate loss rates by looking for malformed data frames.
-	\item Wrote a stored procedure to serve time series data to satellite operators with look-behind functionality to identify the last known value just prior to entering the time frame requested for each data series.
-	\item Decoded the mission data telemetry stream into subsystem outputs for distribution to specialized analysis teams using an interface control document as reference for bit-level routing.
-\end{itemize}}
+	\begin{itemize}
+		\item Created an application to decode command values from binary receipt files to track changes made to payload memory aboard two satellites as a function of time.
+		\item Analyzed communication anomalies and helped to solve a significant operational problem. Created a binary telemetry stream filter to calculate loss rates by looking for malformed data frames.
+		\item Wrote a stored procedure to serve time series data to satellite operators with look-behind functionality to identify the last known value just prior to entering the time frame requested for each data series.
+		\item Decoded the mission data telemetry stream into subsystem outputs for distribution to specialized analysis teams using an interface control document as reference for bit-level routing.
+	\end{itemize}
+}
 
 \cventry{Feb 2008 \\ May 2006}{IT Security Analyst}{Bayer Corporate and Business Services}{Pittsburgh, PA}{}{Provided IT security services including remote access, account management, and reporting; developed software to automate and refine existing manual processes.
-\begin{itemize}
-	\item Automated a monthly data maintenance task that compiled usage metrics and user account health information for more than 16,000 employees and hundreds of technology services globally.  This new process and software reduced human involvement time from two days to less than four hours.
-	\item Provided ad hoc reporting to global management with custom SQL queries.
-\end{itemize}}
+	\begin{itemize}
+		\item Automated a monthly data maintenance task that compiled usage metrics and user account health information for more than 16,000 employees and hundreds of technology services globally.  This new process and software reduced human involvement time from two days to less than four hours.
+		\item Provided ad hoc reporting to global management with custom SQL queries.
+	\end{itemize}
+}
 
 \subsection{Personal Projects}
 \cventry{Since \\ Jun 2014}{\href{https://github.com/garypaduana/DataGator}{{\color{LinkBlue}DataGator}}}{}{}{}{A Spring Integration utility that transforms the file system into an appliance for common task automation.
-\begin{itemize}
-	\item File pollers monitor predefined directories and newly added files are treated as tasks.  
-	\item The files can either be *.url links to Internet resources or binary files to be processed directly.
-	\item In addition to Java, Python applications are packaged with the deployment artifact and can be referenced at runtime to take greater advantage of existing open source libraries. 
-	\item Current functionality includes the ability to:
 	\begin{itemize}
-		\item download \emph{Youtube} video and audio tracks.
-		\item encode videos using \emph{HandbrakeCLI} to greatly reduce the file size of uncompressed sources.
-		\item rotate videos 90 degrees clockwise to correctly orient the frame losslessly using \emph{ffmpeg}.
-		\item re-encode mp3 files using \emph{lame} to lower the file size with a variable bitrate of lower quality.
-		\item download jpg, gif, png, and webm files by scraping an HTML document.
-		\item select a subset of pages from a pdf document.
-		\item rotate each page in a pdf document by 180 degrees.
+		\item File pollers monitor predefined directories and newly added files are treated as tasks.  
+		\item The files can either be *.url links to Internet resources or binary files to be processed directly.
+		\item In addition to Java, Python applications are packaged with the deployment artifact and can be referenced at runtime to take greater advantage of existing open source libraries. 
+		\item Current functionality includes the ability to:
+		\begin{itemize}
+			\item download \emph{Youtube} video and audio tracks.
+			\item encode videos using \emph{HandbrakeCLI} to greatly reduce the file size of uncompressed sources.
+			\item rotate videos 90 degrees clockwise to correctly orient the frame losslessly using \emph{ffmpeg}.
+			\item re-encode mp3 files using \emph{lame} to lower the file size with a variable bitrate of lower quality.
+			\item download jpg, gif, png, and webm files by scraping an HTML document.
+			\item select a subset of pages from a pdf document.
+			\item rotate each page in a pdf document by 180 degrees.
+		\end{itemize}
 	\end{itemize}
-\end{itemize}}
+}
 
 \cventry{Since \\ Apr 2014}{\href{https://github.com/garypaduana/BitcoinTaxes}{{\color{LinkBlue}BitcoinTaxes}}}{}{}{}{A Python script to compute crypto-currency capital gains and losses for tax purposes.
-\begin{itemize}
-	\item Uses FIFO accounting and distinguishes between short-term and long-term gains.
-	\item A state machine is populated with acquisition data and taxable events (sales) are reviewed in time-based sequence to correctly compute cost basis for each unit of asset sold. 
-\end{itemize}}
+	\begin{itemize}
+		\item Uses FIFO accounting and distinguishes between short-term and long-term gains.
+		\item A state machine is populated with acquisition data and taxable events (sales) are reviewed in time-based sequence to correctly compute cost basis for each unit of asset sold. 
+	\end{itemize}
+}
 
-\cventry{Since \\ Jun 2010}{\href{https://github.com/garypaduana/GeneralFileUtility}{{\color{LinkBlue}General File Utility}}}{}{}{}{A Groovy desktop application to improve file management productivity.\begin{itemize}
-	\item \textit{Duplicate File Finder} - Quickly find duplicate files with a lazily-loaded equals evaluation that fails fast without performing unnecessary IO work whenever possible.  Create hard links for deduplication.
-	\item \textit{Smart Merge} - Copy or cut the contents of a folder into a new location ignoring any file deemed to be a duplicate.  Duplicate scope includes the source directory or previously analyzed folders.
-	\item \textit{Bulk Rename} - Rename files with a variety of strategies including Trim, Replace, Date-ify, and Series Editor.  Filter affected files with a regular expression and an individual selection capability.
-	\item \textit{Binary Operations} - Analyze binary data in hexadecimal form to compute values for a variety of cryptographic message digests, longitudinal parity of various lengths, alternative representations in other numeric bases, and a variety of character set encodings for textual interpretation.
-\end{itemize}}
+\cventry{Since \\ Jun 2010}{\href{https://github.com/garypaduana/GeneralFileUtility}{{\color{LinkBlue}General File Utility}}}{}{}{}{A Groovy desktop application to improve file management productivity.
+	\begin{itemize}
+		\item \textit{Duplicate File Finder} - Quickly find duplicate files with a lazily-loaded equals evaluation that fails fast without performing unnecessary IO work whenever possible.  Create hard links for deduplication.
+		\item \textit{Smart Merge} - Copy or cut the contents of a folder into a new location ignoring any file deemed to be a duplicate.  Duplicate scope includes the source directory or previously analyzed folders.
+		\item \textit{Bulk Rename} - Rename files with a variety of strategies including Trim, Replace, Date-ify, and Series Editor.  Filter affected files with a regular expression and an individual selection capability.
+		\item \textit{Binary Operations} - Analyze binary data in hexadecimal form to compute values for a variety of cryptographic message digests, longitudinal parity of various lengths, alternative representations in other numeric bases, and a variety of character set encodings for textual interpretation.
+	\end{itemize}
+}
 
-\cventry{Nov 2013 \\ Apr 2013}{Bit Block}{}{}{}{A business directory for Android that aims to connect local businesses and individuals that accept and trade Bitcoin for goods, services, and local currency.  It is a fork of \textit{Block Talk} with new features.\begin{itemize}
-	\item Redefined the REST interface reused from \textit{Block Talk} in favor of JSON over XML to reduce mobile data usage and make automatic map polling much more efficient.  Users have an option to update the map with new information as it is panned, zoomed, and rotated.
-	\item Added the current Bitcoin market price as a text overlay on the map and displayed it with a custom color scheme to match the default display style in Google Maps complete with semi-transparent edge stroking to improve readability.  The text is drawn to a Canvas on the MapView with dynamic positioning depending on the device's screen density, physical size, and system font size preference.
-\end{itemize}}
+\cventry{Nov 2013 \\ Apr 2013}{Bit Block}{}{}{}{A business directory for Android that aims to connect local businesses and individuals that accept and trade Bitcoin for goods, services, and local currency.  It is a fork of \textit{Block Talk} with new features.
+	\begin{itemize}
+		\item Redefined the REST interface reused from \textit{Block Talk} in favor of JSON over XML to reduce mobile data usage and make automatic map polling much more efficient.  Users have an option to update the map with new information as it is panned, zoomed, and rotated.
+		\item Added the current Bitcoin market price as a text overlay on the map and displayed it with a custom color scheme to match the default display style in Google Maps complete with semi-transparent edge stroking to improve readability.  The text is drawn to a Canvas on the MapView with dynamic positioning depending on the device's screen density, physical size, and system font size preference.
+	\end{itemize}
+}
 
 \cventry{Apr 2013 \\ Feb 2013}{Little Rock, Arkansas Crime Reporting Automation }{}{}{}{A crime reporting tool that ingests raw text input from police reports and uses regular expressions and Google Maps API in Groovy and Java SE to parse all relevant information and prepare a clean and concise summary and map view for distribution to an audience of over 20,000 Little Rock, Arkansas residents.}
 
+\cventry{Feb 2013 \\ Jan 2013}{Word Solver}{}{}{}{A wordsmith assistant for Android that helps solve challenging word games and puzzles.
+	\begin{itemize}
+		\item Implemented using a Jetty web server and Servlet container as a RESTful microservice, JDBC with MySQL, and JSON for requests and responses.
+		\item Created a cached Trie data structure to store over 170,000 words for extremely fast responses.
+	\end{itemize}
+}
 
-\cventry{Feb 2013 \\ Jan 2013}{Word Solver}{}{}{}{A wordsmith assistant for Android that helps solve challenging word games and puzzles.\begin{itemize}
-	\item Implemented using a Jetty web server and Servlet container as a RESTful microservice, JDBC with MySQL, and JSON for requests and responses.
-	\item Created a cached Trie data structure to store over 170,000 words for extremely fast responses.
-\end{itemize}}
+\cventry{Mar 2013 \\ Sep 2012}{Block Talk}{}{}{}{A communication tool for Android that allows users to create text and picture messages on a map that can be viewed by anyone browsing near that location.  It acts as a bulletin board to help connect strangers and disseminate information that is vital to the community.
+	\begin{itemize}
+		\item Implemented on a scalable cluster of Microsoft Azure virtual machines running Windows Server 2008 using RESTful Web Services with JAX-RS (Jersey), Glassfish, MySQL, JPA (Eclipselink), and Maven.
+		\item Android technologies include Apache HTTP Client, SQLite, Android Support Library v4 for Android API 8 through 17 compatibility, ActionBarSherlock, ACRA automated crash reporting, Simple (XML) and JSON.org libraries for the marshalling and unmarshalling of resources, Google Maps API, Imgur APIv2 for image hosting, Eclipse, DDMS, MAT (Memory Analyzing Tool), and Google AdMob SDK. 
+	\end{itemize}
+}
 
-\cventry{Mar 2013 \\ Sep 2012}{Block Talk}{}{}{}{A communication tool for Android that allows users to create text and picture messages on a map that can be viewed by anyone browsing near that location.  It acts as a bulletin board to help connect strangers and disseminate information that is vital to the community.\begin{itemize}
-	\item Implemented on a scalable cluster of Microsoft Azure virtual machines running Windows Server 2008 using RESTful Web Services with JAX-RS (Jersey), Glassfish, MySQL, JPA (Eclipselink), and Maven.
-	\item Android technologies include Apache HTTP Client, SQLite, Android Support Library v4 for Android API 8 through 17 compatibility, ActionBarSherlock, ACRA automated crash reporting, Simple (XML) and JSON.org libraries for the marshalling and unmarshalling of resources, Google Maps API, Imgur APIv2 for image hosting, Eclipse, DDMS, MAT (Memory Analyzing Tool), and Google AdMob SDK. 
-\end{itemize}}
+\cventry{Since \\ Apr 2012}{\href{https://github.com/garypaduana/ProjectEuler}{\color{LinkBlue}Project Euler}}{}{}{}{"A series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve."
+	\begin{itemize}
+		\item \href{https://projecteuler.net/profile/gary.paduana.png}{{\color{LinkBlue}Solved 104 problems}} to date to practice algorithm design, problem solving, implementation, and optimization using Java SE, Groovy, and Python.
+		\item Focus areas include: sequence analyses, prime factorization, prime generation, very large decimal operations, maximum and minimum distance paths in a graph, calendar and time operations, string analyses (palindromes, reversing, substrings, replacing, searching, pattern detection, permutations, regular expressions, etc.), combinatoric selections, card game simulation and bulk analysis of dealt hands, symbolic simplification of non-trivial fractional expressions, XOR encryption and decryption, Euler's Totient analyses, fraction simplification, ordering within a large collection ($> 10^{11}$ elements), number partitioning, the modeling and statistical analyses of board games, and many other similar subjects.
+		\item Currently ranked in the top 1.5\% of members that have been solving problems since 2001.
+	\end{itemize}
+} 
 
-\cventry{Since \\ Apr 2012}{\href{https://github.com/garypaduana/ProjectEuler}{\color{LinkBlue}Project Euler}}{}{}{}{"A series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve."\begin{itemize}
-	\item \href{https://projecteuler.net/profile/gary.paduana.png}{{\color{LinkBlue}Solved 104 problems}} to date to practice algorithm design, problem solving, implementation, and optimization using Java SE, Groovy, and Python.
-	\item Focus areas include: sequence analyses, prime factorization, prime generation, very large decimal operations, maximum and minimum distance paths in a graph, calendar and time operations, string analyses (palindromes, reversing, substrings, replacing, searching, pattern detection, permutations, regular expressions, etc.), combinatoric selections, card game simulation and bulk analysis of dealt hands, symbolic simplification of non-trivial fractional expressions, XOR encryption and decryption, Euler's Totient analyses, fraction simplification, ordering within a large collection ($> 10^{11}$ elements), number partitioning, the modeling and statistical analyses of board games, and many other similar subjects.
-	\item Currently ranked in the top 1.5\% of members that have been solving problems since 2001.
-\end{itemize}} 
-
-\section{Awards and Honors}
-	{\small 
+\section{Awards and Honors}{
+	\small 
 	\cvlistitem{Robert Morris University Presidential Scholarship (5-year academic, full tuition)}
 	\cvlistitem{Dean's List 9 of 10 semesters}
 	\cvlistitem{Alpha Chi membership, limited to the top 10 percent of an institution's juniors, seniors, and graduate students.}
-	}
+}
 
-\section{Interests}
-{\small \cvitem{}{Continued Learning, Cosmology, Digital Storage and Archiving, Economics, Fitness \& Health, Natural Sciences, Philosophy, Photography, Technology, and Wilderness.}}
+\section{Interests}{
+	\small 
+	\cvitem{}{Continued Learning, Cosmology, Digital Storage and Archiving, Economics, Fitness \& Health, Natural Sciences, Philosophy, Photography, Technology, and Wilderness.}
+}
 
-\section{References}
-	{\small 
+\section{References}{
+	\small 
 	\cvdoubleitem{}{Robert Gettys\\Coworker, Healthesystems\\bob@bobgettys.com\\757-470-8114}{}{Tyler Pinckard\\Coworker, General Dynamics\\tyler.pinckard@gmail.com\\602-859-0542}
 	\hfill \break 
 	\hfill \break
 	\cvdoubleitem{}{Jim Chambers\\Supervisor, Northrop Grumman\\trackgraphic@gmail.com\\706-799-0283}{}{Greg Mumenthaler\\Team Lead, Northrop Grumman\\gmumenth@gmail.com\\310-502-3989}
-	}
+}
 
 \end{document}
