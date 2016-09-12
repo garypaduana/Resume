@@ -12,7 +12,7 @@
 
 \name{Gary}{Paduana}
 \address{}{San Jose, CA 95125}
-\phone[mobile]{(501)~712~3141}
+\phone[mobile]{(501) 712-3141}
 \email{gary.paduana@gmail.com}                           
 \social[github]{garypaduana}
 \homepage{garypaduana.com}
@@ -30,6 +30,21 @@
 
 \section{Experience}
 \subsection{Professional}
+
+\cventry{Present \\ May 2015}{Software Engineer}{\href{http://www.manifoldtechnology.com}{{\color{LinkBlue}Manifold Technology}}}{Sunnyvale, CA}{}{Helped architect, develop, deploy, and maintain private blockchain software in a startup environment.
+	\begin{itemize}
+		\item Responsible for all aspects of full-stack development due to the small team size.
+		\item Contributed to the core backend product, which is an asynchronous and highly concurrent collection of Spring Boot Java applications with REST APIs and PostgreSQL and Cassandra data stores.
+		\item Created a test client to measure the performance of the core platform under various load scenarios.
+		\item Managed cloud architecture assets in Amazon Web Services and Microsoft Azure.
+		\item Performed Linux administration to include creating Docker images, writing RPM specifications, building local test servers with ZFS data pools, managing RSA private keys and SSL certificates, SSH tunnels and forwarding, and rsync for deployments and artifact collection, among many other tasks.
+		\item Configured and maintained a continuous integration environment with Jenkins that automatically deployed the latest builds to AWS EC2 instances.
+		\item Used Selenium to simulate user activity and interaction with various websites to generate a large volume of data that could be used in machine learning analysis.
+		\item Developed web prototypes using Bootstrap, Google Charts, and Pixi 2D graphics to support product demonstrations.
+		\item Conducted technical interviews for Deployment Engineers, Software Engineers, and Data Scientists.
+	\end{itemize}
+}
+
 \cventry{Nov 2014 \\ Jul 2013}{Senior Software Engineer}{Healthesystems}{Tampa, FL}{}{Created new enterprise integration software and enhanced existing customer-facing products and processes.
 	\begin{itemize}
 		\item Lead development on a new Spring Integration application that reconciled offline, historical billing transactions with the existing claims adjudication system.
@@ -64,31 +79,14 @@
 
 \subsection{Personal Projects}
 
-\cventry{Since \\ Jan 2015}{\href{http://www.garypaduana.com}{{\color{LinkBlue}Personal Website}}}{}{}{}{A collection of personal projects with live functionality, demonstrations, documentation, and user guides.  Implemented with Grails and Bootstrap CSS; hosted with Amazon Elastic Beanstalk.
+\cventry{Since \\ Jan 2015}{\href{http://www.garypaduana.com}{{\color{LinkBlue}Personal Website}}}{}{}{}{A collection of personal projects with live functionality, demonstrations, documentation, and user guides.  Implemented with Grails and Bootstrap; hosted with DigitalOcean.
 	\begin{itemize}
-		\item \textit{Bitcoin Taxes} - Analyzes transaction history using FIFO accounting and keeps track of short-term and long-term gains, wash sales, proceeds, and cost basis spanning multiple years of transaction history.  A demonstration feature generates random transaction history based upon historical daily Bitcoin pricing values to show a variety of tax scenarios.  Output is neatly organized using Bootstrap tables to allow one to follow each transaction in fine detail.
+		\item \textit{Portrait Photos} - Currently hosting over 80 professional headshot image galleries for clients that I've photographed.  Each gallery is built using a custom automated workflow that depends on \textit{fgallery} and made private with a personalized URL.
+		\item \textit{Capital Gains Calculator} - Analyzes transaction history using FIFO accounting and keeps track of short-term and long-term gains, wash sales, proceeds, and cost basis spanning multiple years of transaction history.  A demonstration feature generates random transaction history based upon historical daily Bitcoin pricing values to show a variety of tax scenarios.  Output is neatly organized using Bootstrap tables to allow one to follow each transaction in fine detail.
 		\item \textit{Word Solver} - A browser implementation of my later mentioned Android application. 
 		\item \textit{k-Means Clustering} - Provides a video demonstration of the algorithm in action running on an Android device, pseudocode for the view and controller, and UML class diagrams for the model.  Source code and a runnable .apk file are available for download.
-		\item \textit{Blog} - Technical studies and interesting findings in technology, programming, engineering, and problem solving (still in early development).
-		\item \textit{About/Personal} - Contains a collection of photos I've taken presented using Bootstrap Image Gallery.
-	\end{itemize}
-}
-
-\cventry{Since \\ Jun 2014}{\href{https://github.com/garypaduana/DataGator}{{\color{LinkBlue}DataGator}}}{}{}{}{A Spring Integration utility that transforms the file system into an appliance for common task automation.
-	\begin{itemize}
-		\item File pollers monitor predefined directories and newly added files are treated as tasks.  
-		\item The files can either be *.url links to Internet resources or binary files to be processed directly.
-		\item In addition to Java, Python applications are packaged with the deployment artifact and can be referenced at runtime to take greater advantage of existing open source libraries. 
-		\item Current functionality includes the ability to:
-		\begin{itemize}
-			\item download \emph{Youtube} video and audio tracks.
-			\item encode videos using \emph{HandbrakeCLI} to greatly reduce the file size of uncompressed sources.
-			\item rotate videos 90 degrees clockwise to correctly orient the frame losslessly using \emph{ffmpeg}.
-			\item re-encode mp3 files using \emph{lame} to lower the file size with a variable bitrate of lower quality.
-			\item download jpg, gif, png, and webm files by scraping an HTML document.
-			\item select a subset of pages from a pdf document.
-			\item rotate each page in a pdf document by 180 degrees.
-		\end{itemize}
+		\item \textit{Blog} - Striving for useful and succinct posts regarding technology, programming, engineering, and problem solving.
+		\item \textit{Photography} - Contains a collection of photos I've taken presented using Bootstrap Image Gallery.
 	\end{itemize}
 }
 
@@ -144,6 +142,7 @@
 	\cvitem{}{Continued Learning, Cosmology, Digital Storage and Archiving, Economics, Fitness \& Health, Natural Sciences, Philosophy, Photography, Technology, and Wilderness.}
 }
 
+\iffalse
 \section{References}{
 	\small 
 	\cvdoubleitem{}{Jim Chambers\\Supervisor, Northrop Grumman\\trackgraphic@gmail.com\\706-799-0283}{}{Greg Mumenthaler\\Team Lead, Northrop Grumman\\gmumenth@gmail.com\\310-502-3989}
@@ -151,5 +150,6 @@
 	\hfill \break
 	\cvdoubleitem{}{Robert Gettys\\Coworker, Healthesystems\\bob@bobgettys.com\\757-470-8114}{}{Tyler Pinckard\\Coworker, General Dynamics\\tyler.pinckard@gmail.com\\602-859-0542}
 }
+\fi
 
 \end{document}
