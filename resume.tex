@@ -11,12 +11,12 @@
 \setlength{\hintscolumnwidth}{2.5cm}	% date column width
 
 \name{Gary}{Paduana}
-\address{}{San Jose, CA 95125}
+\address{}{La Jolla, CA}
 \phone[mobile]{(501) 712-3141}
 \email{gary.paduana@gmail.com}                           
 \social[github]{garypaduana}
 \homepage{garypaduana.com}
-\extrainfo{\href{https://github.com/garypaduana/Resume/blob/master/resume.pdf?raw=true}{\color{LinkBlue}Latest Version}}
+\extrainfo{\href{https://rawgit.com/garypaduana/Resume/master/resume.pdf}{\color{LinkBlue}Latest Version}}
 
 \begin{document}
 \makecvtitle
@@ -31,14 +31,20 @@
 \section{Experience}
 \subsection{Professional}
 
-\cventry{Present \\ May 2015}{Software Engineer}{\href{http://www.manifoldtechnology.com}{{\color{LinkBlue}Manifold Technology}}}{Sunnyvale, CA}{}{Helped architect, develop, deploy, and maintain private blockchain software in a startup environment.
+\cventry{Present \\ Mar 2017}{Software Engineer, Consultant}{\href{http://yth.org}{{\color{LinkBlue}Youth Tech Health}}}{Oakland, CA}{}{Currently creating a mobile web platform to collect medical screening questionnaires and simplify the process of matching patients with providers who offer specialized care.
+	\begin{itemize}	
+	\item Using Django, PostgreSQL, Google Maps API, and Bootstrap.
+	\item Integrating with existing data stores and external service providers to offer new functionality that will enhance the overall user experience when finding providers, obtaining prescriptions, and following the treatment plan.
+	\item Designed with expansion in mind so that Django forms could be generated at run-time from a persisted data model allowing administrators to create new questionnaires without changing code.
+	\end{itemize}
+}
+
+\cventry{Mar 2017 \\ May 2015}{Software Engineer}{\href{http://www.manifoldtechnology.com}{{\color{LinkBlue}Manifold Technology}}}{Sunnyvale, CA}{}{Helped architect, develop, deploy, and maintain financial services and information security software in a start-up environment.
 	\begin{itemize}
-		\item Responsible for all aspects of full-stack development due to the small team size.
-		\item Contributed to the core backend product, which is an asynchronous and highly concurrent collection of Spring Boot Java applications with REST APIs and PostgreSQL and Cassandra data stores.
-		\item Created a test client to measure the performance of the core platform under various load scenarios.
+		\item Solely responsible for the design and creation of three Android applications to demonstrate the use of our platform.  One focused on account balances and transaction histories with charts and a live view of active trades, another showcased purpose-based access control for sensitive user data, {\href{https://github.com/garypaduana/manifold-api-android-client}{{\color{LinkBlue}and another served as an API client library}}} to help other developers access our public API.
+		\item Contributed to the core back-end product, which is an asynchronous and highly concurrent collection of Spring Boot Java applications with RESTful APIs and PostgreSQL and Cassandra data stores.
 		\item Managed cloud architecture assets in Amazon Web Services and Microsoft Azure.
-		\item Performed Linux administration to include creating Docker images, writing RPM specifications, building local test servers with ZFS data pools, managing RSA private keys and SSL certificates, SSH tunnels and forwarding, and rsync for deployments and artifact collection, among many other tasks.
-		\item Configured and maintained a continuous integration environment with Jenkins that automatically deployed the latest builds to AWS EC2 instances.
+		\item Configured and maintained a continuous integration environment with Jenkins that automatically deployed the latest development and QA builds to AWS EC2 instances.
 		\item Used Selenium to simulate user activity and interaction with various websites to generate a large volume of data that could be used in machine learning analysis.
 		\item Developed web prototypes using Bootstrap, Google Charts, and Pixi 2D graphics to support product demonstrations.
 		\item Conducted technical interviews for Deployment Engineers, Software Engineers, and Data Scientists.
@@ -52,7 +58,7 @@
 	\end{itemize}
 }
 
-\cventry{Apr 2012 \\ Feb 2011}{Senior Software Engineer}{General Dynamics \& Aerotek}{Santa Clara, CA}{}{Implemented server-side computational algorithms to support a resource scheduling system.
+\cventry{Apr 2012 \\ Feb 2011}{Senior Software Engineer, Contractor}{General Dynamics \& Aerotek}{Santa Clara, CA}{}{Implemented server-side computational algorithms to support a resource scheduling system.
 	\begin{itemize}
 		\item Created a utility library used to perform geometric, algebraic, and trigonometric calculations.  One notable component is the computation of the inverse of an $A_{n,n}$ complex matrix using \href{http://en.wikipedia.org/wiki/LU_decomposition}{{\color{LinkBlue}Lower Upper decomposition}} and permutation matrices.
 		\item Implemented the \href{http://en.wikipedia.org/wiki/K-means_clustering}{{\color{LinkBlue}K-Means Clustering}} algorithm to optimize resource allocation.
@@ -61,7 +67,7 @@
 	\end{itemize}
 }
 
-\cventry{Nov 2010 \\ Sep 2008}{Software Engineer}{Northrop Grumman \& Assured Space}{Redondo Beach, CA}{}{Designed, tested, and integrated custom software to fit the needs of an operational satellite environment  (\href{http://en.wikipedia.org/wiki/Space_Tracking_and_Surveillance_System}{{\color{LinkBlue}STSS}}) through pre-launch, launch, and early-orbit test phases.
+\cventry{Nov 2010 \\ Sep 2008}{Software Engineer, Contractor}{Northrop Grumman \& Assured Space}{Redondo Beach, CA}{}{Designed, tested, and integrated custom software to fit the needs of an operational satellite environment  (\href{http://en.wikipedia.org/wiki/Space_Tracking_and_Surveillance_System}{{\color{LinkBlue}STSS}}) through pre-launch, launch, and early-orbit test phases.
 	\begin{itemize}
 		\item Created an application to decode command values from binary receipt files to track changes made to payload memory aboard two satellites as a function of time.
 		\item Analyzed communication anomalies and helped to solve a significant operational problem. Created a binary telemetry stream filter to calculate loss rates by looking for malformed data frames.
@@ -70,7 +76,7 @@
 	\end{itemize}
 }
 
-\cventry{Feb 2008 \\ May 2006}{IT Security Analyst}{Bayer Corporate and Business Services}{Pittsburgh, PA}{}{Provided IT security services including remote access, account management, and reporting; developed software to automate and refine existing manual processes.
+\cventry{Feb 2008 \\ May 2006}{IT Security Analyst, Intern}{Bayer Corporate and Business Services}{Pittsburgh, PA}{}{Provided IT security services including remote access, account management, and reporting; developed software to automate and refine existing manual processes.
 	\begin{itemize}
 		\item Automated a monthly data maintenance task that compiled usage metrics and user account health information for more than 16,000 employees and hundreds of technology services globally.  This new process and software reduced human involvement time from two days to less than four hours.
 		\item Provided ad hoc reporting to global management with custom SQL queries.
@@ -79,14 +85,9 @@
 
 \subsection{Personal Projects}
 
-\cventry{Since \\ Jan 2015}{\href{http://www.garypaduana.com}{{\color{LinkBlue}Personal Website}}}{}{}{}{A collection of personal projects with live functionality, demonstrations, documentation, and user guides.  Implemented with Grails and Bootstrap; hosted with DigitalOcean.
+\cventry{Since \\ Jan 2015}{\href{http://www.garypaduana.com}{{\color{LinkBlue}Personal Website}}}{}{}{}{A collection of personal projects and photography samples.  Implemented with Grails and Bootstrap.
 	\begin{itemize}
-		\item \textit{Portrait Photos} - Currently hosting over 80 professional headshot image galleries for clients that I've photographed.  Each gallery is built using a custom automated workflow that depends on \textit{fgallery} and made private with a personalized URL.
-		\item \textit{Capital Gains Calculator} - Analyzes transaction history using FIFO accounting and keeps track of short-term and long-term gains, wash sales, proceeds, and cost basis spanning multiple years of transaction history.  A demonstration feature generates random transaction history based upon historical daily Bitcoin pricing values to show a variety of tax scenarios.  Output is neatly organized using Bootstrap tables to allow one to follow each transaction in fine detail.
-		\item \textit{Word Solver} - A browser implementation of my later mentioned Android application. 
-		\item \textit{k-Means Clustering} - Provides a video demonstration of the algorithm in action running on an Android device, pseudocode for the view and controller, and UML class diagrams for the model.  Source code and a runnable .apk file are available for download.
-		\item \textit{Blog} - Striving for useful and succinct posts regarding technology, programming, engineering, and problem solving.
-		\item \textit{Photography} - Contains a collection of photos I've taken presented using Bootstrap Image Gallery.
+		\item \textit{Capital Gains Calculator} - Analyzes transaction history using FIFO accounting and keeps track of short-term and long-term gains, wash sales, proceeds, and cost basis spanning multiple years of transaction history.
 	\end{itemize}
 }
 
