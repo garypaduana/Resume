@@ -1,4 +1,4 @@
-[![](https://dl.dropboxusercontent.com/u/196323/resume_preview.png)](https://github.com/garypaduana/Resume/blob/master/resume.pdf?raw=true)
+[![](https://s3-us-west-2.amazonaws.com/paduana-photos/resume/resume.preview.png)](https://rawgit.com/garypaduana/Resume/master/resume.pdf)
 
 This [Compiled Work](https://github.com/garypaduana/Resume/blob/master/resume.pdf?raw=true) is compiled from [resume.tex](https://github.com/garypaduana/Resume/blob/master/resume.tex), which is a Derived Work of [template.tex](https://github.com/garypaduana/Resume/blob/master/template.tex), originally created by Xavier Danaux <xdanaux@gmail.com> and licensed under [The LaTeX Project Public License, version 1.3c](https://github.com/garypaduana/Resume/blob/master/license.txt).  
 
