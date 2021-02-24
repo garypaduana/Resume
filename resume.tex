@@ -11,11 +11,11 @@
 \setlength{\hintscolumnwidth}{2.5cm}	% date column width
 
 \name{Gary}{Paduana}
-\address{}{La Jolla, CA}
+\address{}{\#130163, Coram, MT 59913}
 \phone[mobile]{(501) 712-3141}
 \email{gary.paduana@gmail.com}                           
 \social[github]{garypaduana}
-\homepage{garypaduana.com}
+%\homepage{garypaduana.com}
 \extrainfo{\href{https://rawgit.com/garypaduana/Resume/master/resume.pdf}{\color{LinkBlue}Latest Version}}
 
 \begin{document}
@@ -23,23 +23,25 @@
 
 \section{Summary}
 \cvlistitem{A Software Engineer specializing in data-centric, algorithmic, mobile, and web solutions with professional experience in aerospace, health care, financial, and business roles.}
-\cvlistitem{Proficient in Java, Groovy, SQL, Python, Bash, Javascript, CSS, and HTML.}
+\cvlistitem{Proficient in Java, Kotlin, Groovy, SQL, Python, Bash, Javascript, CSS, and HTML.}
 \cvlistitem{Experience with Spring (Boot, Integration, MVC, JPA), Grails, Android, Django, Jenkins, Amazon Web Services, PostgreSQL, MySQL, SQL Server, Oracle, Web Services, RabbitMQ, Bootstrap, Docker, Git, GPG, and ZFS, among others.}
 
 
 \section{Education}
-\cvitem{2007}{Robert Morris University, Moon, PA (Integrated Degree Plan)}{
+\cvitem{2007}{Robert Morris University, Moon, PA}{
 	\cvlistitem{\textbf{Master of Science}, Information Security and Assurance, \textit{3.96}}
 	\cvlistitem{\textbf{Bachelor of Science}, Software Engineering, \textit{3.81, Magna Cum Laude}}
 }
 	
 \section{Professional Experience}
-\cventry{Present \\ Mar 2017}{Software Engineer, Consultant}{\href{http://yth.org}{{\color{LinkBlue}Youth Tech Health}}}{Oakland, CA}{}{Currently creating a mobile web platform to collect medical screening questionnaires and simplify the process of matching patients with providers who offer specialized care.
-	\begin{itemize}	
-	\item Using Django, PostgreSQL, Google Maps API, and Bootstrap.
-	\item Integrating with existing data stores and external service providers to offer new functionality that will enhance the overall user experience when finding providers, obtaining prescriptions, and following the treatment plan.
-	\item Designed with expansion in mind so that Django forms could be generated at run-time from a persisted data model allowing administrators to create new questionnaires without changing code.
-	\end{itemize}
+\cventry{Jan 2021 \\ Jul 2017}{Senior Software Engineer}{\href{https://intuit.com}{{\color{LinkBlue}Intuit}}}{San Diego, CA}{}{Created personal finance applications to help individuals manage their debt, monitor their credit, and save for their future.
+    \begin{itemize}
+        \item Created {\href{https://play.google.com/store/apps/details?id=com.intuit.turbo}{{\color{LinkBlue}\textit{Turbo}}}} for Android, a personal finance app with over 1,000,000 downloads and a 4.8-star rating, on a team with three other engineers. My contributions were in app infrastructure (network calls, encrypted local storage and offline access, service management and dependency injection, Kotlin adoption, and implementing \textit{Android Architecture Components} design patterns for reuse.
+        \item Lead a team in creating the Turbo CCPA (California Consumer Privacy Act) data access and deletion manager that enabled customers to download a record of their Turbo data or delete their account.
+        \item Lead performance testing and tax season readiness efforts for all of Turbo to provide confidence in our services during our periods of highest user traffic. Created a suite of Gatling tests that simulated user behavior on Android, iOS, and Web clients. Taught junior engineers about performance testing with training sessions and tutorial videos. Provided estimates to internal business partners to help with marketing campaign planning and AWS budgeting.
+        \item Wrote a simple DSL in Groovy to generate MVEL expressions used to evaluate business rules against a user's personal financial profile at run-time to determine the best content to display for advice, offers, and reminders.
+        \item Wrote a state machine to evaluate a user's on-boarding registration status and route to the appropriate content within Turbo. Various data sources were accessed in a reactive way to provide scalable IO operations.
+    \end{itemize}
 }
 
 \cventry{Mar 2017 \\ May 2015}{Software Engineer}{\href{http://www.manifoldtechnology.com}{{\color{LinkBlue}Manifold Technology}}}{Sunnyvale, CA}{}{Helped architect, develop, deploy, and maintain financial services and information security software in a start-up environment.
@@ -63,10 +65,10 @@
 
 \cventry{Apr 2012 \\ Feb 2011}{Senior Software Engineer, Contractor}{General Dynamics}{Santa Clara, CA}{}{Implemented three server-side computational algorithm modules to support a top-secret resource scheduling system.
 	\begin{itemize}
-	    \item One of the three modules used the k-means clustering algorithm to solve a geospatial minimization problem, another used electrical engineering principles to assure that system load would be within safe limits, and the final algorithm searched for system availability and requested resources to maintain a minimum utilization percentage.
+	    \item Worked on an interdisciplinary team with the help of two mathematicians and one aerospace engineer.
+	    \item One module used the k-means clustering algorithm to solve a geospatial minimization problem, another used electrical engineering principles to assure that system load would be within safe limits, and the final algorithm searched for system availability and requested resources to maintain a minimum utilization percentage.
 		\item Created a utility library used to perform geometric, algebraic, and trigonometric calculations.  One notable component is the computation of the inverse of an $A_{n,n}$ complex matrix using \href{http://en.wikipedia.org/wiki/LU_decomposition}{{\color{LinkBlue}Lower Upper decomposition}} and permutation matrices.
 		\item Created an application to bulk load $> 10^{10}$ reference values originating in both text and binary encoding into a relational database using connection pooling and multithreading.
-		 \item Worked on an interdisciplinary team with the help of two mathematicians and one aerospace engineer.
 	\end{itemize}
 }
 
@@ -87,11 +89,6 @@
 }
 
 \section{Personal Projects}
-\cventry{Since \\ Jan 2015}{\href{http://www.garypaduana.com}{{\color{LinkBlue}Personal Website}}}{}{}{}{A collection of personal projects and photography samples.  Implemented with Grails and Bootstrap.
-	\begin{itemize}
-		\item \textit{Capital Gains Calculator} - Analyzes transaction history using FIFO accounting and keeps track of short-term and long-term gains, wash sales, proceeds, and cost basis spanning multiple years of transaction history.
-	\end{itemize}
-}
 
 \cventry{Nov 2013 \\ Sep 2012}{Android Applications}{}{}{}{Created for fun to explore the Android ecosystem, algorithm design, and full-stack deployment responsibilities.
 	\begin{itemize}
